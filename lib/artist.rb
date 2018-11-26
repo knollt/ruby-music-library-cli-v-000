@@ -1,5 +1,5 @@
 class Artist
-  extends: Concerns::Findable
+  extends Concerns::Findable
   attr_accessor :name
   attr_reader :songs, :genre
 
